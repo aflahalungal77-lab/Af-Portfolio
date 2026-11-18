@@ -571,3 +571,56 @@ body.light .floating-card { background: rgba(255,255,255,.88); }
   }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Zoro AI project preview */
+.zoro-preview {
+  min-height: 420px;
+  display: grid;
+  place-items: center;
+  padding: 34px;
+  background: radial-gradient(ellipse at 50% 10%, rgba(92,255,145,.13), transparent 65%), #0b100d;
+}
+.zoro-window {
+  width: min(100%, 430px);
+  overflow: hidden;
+  border: 1px solid rgba(180,220,190,.16);
+  border-radius: 17px;
+  background: #111813;
+  box-shadow: 0 24px 70px rgba(0,0,0,.42);
+  color: #eaf4ec;
+}
+.zoro-topbar {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(180,220,190,.12);
+}
+.zoro-mark {
+  width: 31px;
+  height: 31px;
+  flex: 0 0 31px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: #5cff91;
+  color: #09110c;
+  font: 700 1rem "Space Grotesk";
+}
+.zoro-topbar strong, .zoro-topbar small { display: block; }
+.zoro-topbar strong { font: 600 .85rem "Space Grotesk"; }
+.zoro-topbar small { color: #829187; font-size: .65rem; margin-top: 2px; }
+.zoro-status { margin-left: auto; color: #5cff91; font-size: .55rem; letter-spacing: .08em; }
+.zoro-chat { padding: 28px 18px 18px; min-height: 260px; display: flex; flex-direction: column; gap: 19px; }
+.zoro-message { max-width: 88%; padding: 12px 14px; border-radius: 12px; font-size: .72rem; line-height: 1.65; }
+.zoro-user { align-self: flex-end; background: rgba(92,255,145,.13); border: 1px solid rgba(92,255,145,.15); }
+.zoro-bot { display: flex; align-items: flex-start; gap: 10px; color: #c5d1c8; background: #19221b; }
+.zoro-bot .zoro-mark { width: 23px; height: 23px; flex-basis: 23px; font-size: .75rem; border-radius: 7px; }
+.zoro-bot p { margin: 0; }
+.zoro-compose { margin-top: auto; display: flex; align-items: center; justify-content: space-between; padding: 12px 13px; border: 1px solid rgba(180,220,190,.16); border-radius: 10px; color: #738178; font-size: .68rem; }
+.zoro-compose b { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: #5cff91; color: #09110c; font-size: .9rem; }
+@media (max-width: 760px) {
+  .zoro-preview { min-height: 310px; padding: 22px; }
+  .zoro-chat { min-height: 220px; }
+}
