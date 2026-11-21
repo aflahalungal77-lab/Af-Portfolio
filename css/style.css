@@ -690,3 +690,32 @@ body.light .floating-card { background: rgba(255,255,255,.88); }
   .food-app, .service-app { padding:16px; }
   .food-photo { height:60px; }
 }
+
+
+/* Krezi interactive platform preview */
+.krezi-preview {
+  display:grid; place-items:center; padding:30px;
+  background:radial-gradient(ellipse at 50% 0%,rgba(255,190,80,.22),transparent 65%),#17131a;
+}
+.krezi-window {
+  width:min(100%,460px); padding:20px; border:1px solid rgba(255,255,255,.12);
+  border-radius:20px; background:linear-gradient(145deg,#fff9f3,#fff); color:#29212d;
+  box-shadow:0 25px 70px rgba(0,0,0,.38); font-family:"DM Sans",sans-serif;
+}
+.krezi-topbar { display:flex; align-items:center; gap:10px; }
+.krezi-logo { display:grid; place-items:center; width:35px; height:35px; border-radius:12px; background:linear-gradient(135deg,#ffcf70,#ff8eaa); color:#342333; font-weight:800; }
+.krezi-topbar strong,.krezi-topbar small { display:block; }
+.krezi-topbar strong { font:700 .95rem "Space Grotesk"; }
+.krezi-topbar small { margin-top:2px; color:#958895; font-size:.58rem; }
+.krezi-live { margin-left:auto; padding:6px 9px; border-radius:30px; background:#fff0d9; color:#9a6531; font-size:.48rem; font-weight:800; letter-spacing:.08em; }
+.krezi-intro { margin:19px 0 14px; padding:19px; border-radius:15px; color:#fff; background:linear-gradient(120deg,#6d4c72,#d17c91); }
+.krezi-intro>span { font-size:.48rem; letter-spacing:.13em; font-weight:800; opacity:.85; }
+.krezi-intro h4 { margin:8px 0 6px; font:700 1.55rem/1.05 "Space Grotesk"; }
+.krezi-intro p { margin:0; color:#fff0f4; font-size:.6rem; }
+.krezi-feature-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; }
+.krezi-tile { display:grid; grid-template-columns:30px 1fr; align-items:center; padding:11px; border:1px solid #f0e7ed; border-radius:11px; background:#fff; }
+.krezi-tile b { grid-row:span 2; display:grid; place-items:center; width:25px; height:25px; border-radius:8px; background:#fff0e8; color:#b56b70; font-size:.8rem; }
+.krezi-tile strong { font-size:.59rem; }
+.krezi-tile small { margin-top:3px; color:#988b98; font-size:.49rem; }
+.project-status { color:var(--faint); font-size:.72rem; }
+@media(max-width:760px) { .krezi-preview { padding:18px; } .krezi-window { padding:15px; } }
