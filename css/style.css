@@ -624,3 +624,69 @@ body.light .floating-card { background: rgba(255,255,255,.88); }
   .zoro-preview { min-height: 310px; padding: 22px; }
   .zoro-chat { min-height: 220px; }
 }
+
+
+/* Tho'am food ordering project preview */
+.thoam-preview {
+  display: grid; place-items: center; padding: 28px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(236,164,78,.2), transparent 65%), #17120e;
+}
+.food-app {
+  width: min(100%, 460px); padding: 22px; border-radius: 20px;
+  background: #fffaf2; color: #282018; box-shadow: 0 25px 70px rgba(0,0,0,.38);
+  font-family: "DM Sans", sans-serif;
+}
+.food-head, .food-brand, .food-location, .food-section-title { display:flex; align-items:center; }
+.food-head, .food-section-title { justify-content:space-between; }
+.food-brand { gap:10px; }
+.food-logo { display:grid; place-items:center; width:34px; height:34px; border-radius:11px; background:#211b16; color:#f5c47d; font-weight:800; }
+.food-brand strong, .food-brand small { display:block; }
+.food-brand strong { font:700 1rem "Space Grotesk"; }
+.food-brand small, .food-location { color:#817568; font-size:.62rem; }
+.food-hero { margin:20px 0 16px; padding:21px; border-radius:15px; color:#fff7e9; background:linear-gradient(120deg,#3a2417,#87502a); }
+.food-hero > span, .service-welcome > span { font-size:.52rem; letter-spacing:.15em; font-weight:700; opacity:.8; }
+.food-hero h4, .service-welcome h4 { margin:8px 0 15px; font:700 1.55rem/1.08 "Space Grotesk"; }
+.food-search { padding:11px 13px; border-radius:9px; background:#fffaf2; color:#817568; font-size:.65rem; }
+.food-section-title { margin:0 0 11px; }
+.food-section-title strong { font:700 .78rem "Space Grotesk"; }
+.food-section-title small { color:#a16a35; font-size:.58rem; }
+.food-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:9px; }
+.food-item { min-width:0; }
+.food-photo { height:74px; display:grid; place-items:center; border-radius:10px; font-size:2rem; background:#f0e2ce; }
+.food-burger { background:#f3dfc9; } .food-meals { background:#e9e5d7; }
+.food-item strong, .food-item small { display:block; }
+.food-item strong { margin-top:7px; font-size:.59rem; }
+.food-item small { margin-top:3px; color:#887c6d; font-size:.48rem; }
+
+/* Sevana community services project preview */
+.sevana-preview {
+  display:grid; place-items:center; padding:28px;
+  background:radial-gradient(ellipse at 50% 0%,rgba(88,190,124,.2),transparent 65%),#0d1711;
+}
+.service-app {
+  width:min(100%,460px); padding:22px; border-radius:20px;
+  background:#f5fbf5; color:#193323; box-shadow:0 25px 70px rgba(0,0,0,.38);
+  font-family:"DM Sans",sans-serif;
+}
+.service-head, .service-brand { display:flex; align-items:center; }
+.service-head { justify-content:space-between; }
+.service-brand { gap:10px; }
+.service-logo { display:grid; place-items:center; width:34px; height:34px; border-radius:11px; background:#176b3b; color:white; font-weight:800; }
+.service-brand strong, .service-brand small { display:block; }
+.service-brand strong { font:700 1rem "Space Grotesk"; }
+.service-brand small { color:#718778; font-size:.62rem; }
+.service-pill { padding:6px 9px; border-radius:30px; background:#e2f2e5; color:#287548; font-size:.5rem; font-weight:700; letter-spacing:.08em; }
+.service-welcome { margin:20px 0 14px; padding:20px; border-radius:15px; color:white; background:linear-gradient(120deg,#145b35,#368b54); }
+.service-welcome h4 { margin-bottom:7px; }
+.service-welcome p { margin:0; max-width:270px; color:#e0f2e4; font-size:.62rem; line-height:1.5; }
+.service-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; }
+.service-tile { display:grid; grid-template-columns:35px 1fr; align-items:center; padding:11px; border:1px solid #e1ece2; border-radius:11px; background:#fff; }
+.service-tile b { grid-row:span 2; display:grid; place-items:center; width:29px; height:29px; border-radius:9px; background:#edf7ee; font-size:1rem; }
+.service-tile strong { font-size:.62rem; }
+.service-tile small { color:#819286; font-size:.52rem; }
+.service-footer { margin-top:15px; text-align:center; color:#78917e; font-size:.48rem; letter-spacing:.12em; }
+@media (max-width:760px) {
+  .thoam-preview, .sevana-preview { padding:18px; }
+  .food-app, .service-app { padding:16px; }
+  .food-photo { height:60px; }
+}
