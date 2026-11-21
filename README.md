@@ -1,110 +1,62 @@
-# Muhammed Aflah — Premium Developer Portfolio
+# Muhammed Aflah — Developer Portfolio
 
-A responsive Gen-Z developer portfolio built with **HTML5, CSS3 and Vanilla JavaScript only**.
+A personal portfolio built with **HTML, CSS and vanilla JavaScript**.
 
-## Project structure
+The portfolio presents my current work in full-stack web development and my learning journey in AI development and machine learning. It focuses on real projects and clearly separates technologies I use from topics I am currently learning.
 
-```text
-portfolio/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── assets/
-│   ├── profile.jpg
-│   ├── about.jpg
-│   ├── project-1.jpg
-│   ├── project-2.jpg
-│   ├── project-3.jpg
-│   └── project-4.jpg
-└── README.md
-```
+## About
 
-## How to run
+I am a student developer from Kerala, India. I build web applications and explore AI development through practical projects. My current AI learning path includes Python, APIs, JSON, prompt engineering and structured outputs.
 
-No Node.js, npm, framework or build tool is required.
+## Featured work
 
-1. Put your images inside `assets/`.
-2. Open `index.html` directly in a browser.
-3. The portfolio works as a static website.
+- **DevX** — MERN-based developer social platform with authentication, profiles and social features.
+- **Zoro AI** — A deliberately simple API-based chatbot project for learning requests, prompts, responses and tokens.
+- **Tho'am** — Local restaurant discovery and ordering platform with digital menus and QR ordering.
+- **Sevana** — Community-service progressive web app for local information and services.
+- **AnimalAI CNN** — Beginner image-classification experiment using PyTorch.
+- **HousePriceAI** — Beginner regression experiment exploring model weights, predictions and mean squared error.
 
-The Google Fonts and Devicon stylesheet are loaded from CDNs, so those resources need internet access for the exact typography/icons. The page itself does not require a build step.
+Project status and links are shown on the portfolio. Machine-learning experiments are learning projects, not production AI products.
 
-## Replace images
+## Technologies
 
-Use these exact filenames:
+### Web development
+- HTML, CSS, JavaScript
+- React
+- Node.js and Express
+- MongoDB and Mongoose
+- Next.js
+- REST APIs
+- Git and GitHub
 
-- `assets/profile.jpg` — hero/profile image
-- `assets/about.jpg` — About section image
-- `assets/project-1.jpg` — DevConnect
-- `assets/project-2.jpg` — Ajwa Bakery
-- `assets/project-3.jpg` — Fashion Hub
-- `assets/project-4.jpg` — Coral Ways
+### AI and machine learning — learning
+- Python
+- API requests and JSON
+- Prompt engineering
+- Structured outputs
+- NumPy and Pandas fundamentals
+- PyTorch and CNN fundamentals
 
-Keep the filenames the same and replace the files, or edit the corresponding `src` values in `index.html`.
+## Run locally
 
-## Edit personal information
+No build step is required.
 
-Open `index.html` and search for:
+1. Clone this repository.
+2. Open `index.html` in a browser.
 
-- `Muhammed Aflah`
-- `Full Stack Developer`
-- `Kerala, India`
-- About section paragraphs
-- Project names/descriptions
-- Journey entries
-- Currently Exploring cards
-- Email address
+Google Fonts and Devicon icons load from CDNs and require an internet connection.
 
-## Edit social links
+## Update content
 
-Replace the current placeholder GitHub, LinkedIn and Instagram URLs in `index.html`.
+- Main content, project details, SEO metadata and social links: `index.html`
+- Styling: `css/style.css`
+- Interactions: `js/script.js`
+- Images: `images/`
 
-Search for:
+## Contact
 
-```text
-https://github.com/
-https://www.linkedin.com/
-https://www.instagram.com/
-```
-
-Then replace them with your actual profile URLs.
-
-## Edit project links
-
-The GitHub links are ready to be replaced with each project's repository.
-
-The `Live Demo` buttons intentionally do not pretend to send users to a real site. They show a small message until you add your actual URL.
-
-For a live project, replace:
-
-```html
-<a href="#" data-demo>Live Demo ↗</a>
-```
-
-with:
-
-```html
-<a href="YOUR-LIVE-URL" target="_blank" rel="noopener">Live Demo ↗</a>
-```
-
-## Contact form
-
-There is no backend.
-
-The form performs client-side validation only and displays:
-
-`Message validated successfully.`
-
-It does **not** claim that an email was sent.
-
-## Theme
-
-The site defaults to dark mode.
-
-The theme button toggles dark/light mode and stores the choice in `localStorage`.
-
-## Accessibility
-
-The site includes semantic sections, image alt text, labels, keyboard-focusable controls, visible focus states, ARIA labels/status messaging and a `prefers-reduced-motion` mode.
+- Email: aflahalungal77@gmail.com
+- GitHub: https://github.com/aflahalungal77-lab/
+- Instagram: https://www.instagram.com/aflahh.a/
+- Portfolio: https://aflahha.vercel.app/
