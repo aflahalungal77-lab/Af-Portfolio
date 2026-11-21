@@ -14,10 +14,8 @@ I am a student developer from Kerala, India. I build web applications and explor
 - **Zoro AI** — A deliberately simple API-based chatbot project for learning requests, prompts, responses and tokens.
 - **Tho'am** — Local restaurant discovery and ordering platform with digital menus and QR ordering.
 - **Sevana** — Community-service progressive web app for local information and services.
-- **AnimalAI CNN** — Beginner image-classification experiment using PyTorch.
-- **HousePriceAI** — Beginner regression experiment exploring model weights, predictions and mean squared error.
 
-Project status and links are shown on the portfolio. Machine-learning experiments are learning projects, not production AI products.
+Project status and links are shown on the portfolio.
 
 ## Technologies
 
